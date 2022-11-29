@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;800&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;  
+}
+
+.filter{
+  
+}
+
+/* Prev & Next Button Start */
+.btn-group .button {
+    background-color: #0c6980; /* Green */
+    border: 1px solid #e3e3e3;
+    color: white;
+    padding: 5px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    /* float: center; */
+  }
+
+  .btn-group .button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+  }
+
+  .btn-group .button:hover {
+    background-color: #094c5d;
+  }
+
+  .btn-group .button:active {
+    background-color: #0c6980;
+    transform: translateY(1px);
+  }
+
+  .btn-group .button:disabled,
+  .button.disabled{
+    color:#fff;
+    background-color: #a0a0a0; 
+    cursor: not-allowed;
+    pointer-events:none;
+  }
+/* Prev & Next Button Start */
